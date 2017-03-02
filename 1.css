@@ -208,7 +208,10 @@ div#header, div#header_index
 
 div#header  a, div#header_index  a, div#header_index  h1
 		{
-		font-size:16px;
+		font-size:32px;
+		font-family:'Î¢ÈíÑÅºÚ';
+		color:#000;
+		font-weight:800;
 		margin: 0;
 		padding: 0;
 		border: 0;
