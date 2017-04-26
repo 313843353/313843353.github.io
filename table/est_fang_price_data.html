@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><title>est_fang_price_data</title>
+<link rel="stylesheet" type="text/css" href="table.css" />
+</head>
+<body><h4>est_fang_price_data       odps同步，价格动态数据</h4>
+<table><tr bgcolor="lightgrey"><th>字段名</th>
+<th>注释</th>
+<th>类型</th>
+<th>SCHEMA</th>
+<th>IS_NULL</th>
+</tr>
+<tr><td>id</td>
+<td></td>
+<td>varchar(100)</td>
+<td>real_estate</td>
+<td>NO</td>
+</tr>
+<tr class="bj"><td>url</td>
+<td></td>
+<td>varchar(200)</td>
+<td>real_estate</td>
+<td>YES</td>
+</tr>
+<tr><td>status</td>
+<td>销售状态</td>
+<td>varchar(100)</td>
+<td>real_estate</td>
+<td>YES</td>
+</tr>
+<tr class="bj"><td>refer_price</td>
+<td>楼盘参考均价（元/平方米）</td>
+<td>decimal(20,4)</td>
+<td>real_estate</td>
+<td>YES</td>
+</tr>
+<tr><td>refer_price_from</td>
+<td>楼盘参考均价来源(unit_price：首页楼盘均价；trend_price：最新价格走势；detail_price:</td>
+<td>varchar(20)</td>
+<td>real_estate</td>
+<td>YES</td>
+</tr>
+<tr class="bj"><td>rent_price</td>
+<td>楼盘参考租金（元/平方米.年）</td>
+<td>decimal(20,4)</td>
+<td>real_estate</td>
+<td>YES</td>
+</tr>
+<tr><td>rent_price_from</td>
+<td>楼盘参考租金来源(unit_price：首页楼盘均价；trend_price：最新价格走势；detail_price</td>
+<td>varchar(20)</td>
+<td>real_estate</td>
+<td>YES</td>
+</tr>
+<tr class="bj"><td>open_date</td>
+<td>开盘时间</td>
+<td>date</td>
+<td>real_estate</td>
+<td>YES</td>
+</tr>
+<tr><td>handing_date</td>
+<td>交付时间</td>
+<td>date</td>
+<td>real_estate</td>
+<td>YES</td>
+</tr>
+<tr class="bj"><td>building_name</td>
+<td></td>
+<td>varchar(100)</td>
+<td>real_estate</td>
+<td>YES</td>
+</tr>
+<tr><td>developer</td>
+<td></td>
+<td>varchar(200)</td>
+<td>real_estate</td>
+<td>YES</td>
+</tr>
+<tr class="bj"><td>city</td>
+<td></td>
+<td>varchar(100)</td>
+<td>real_estate</td>
+<td>YES</td>
+</tr>
+<tr><td>_data_version</td>
+<td></td>
+<td>varchar(10)</td>
+<td>real_estate</td>
+<td>YES</td>
+</tr>
+<tr class="bj"><td>report_date</td>
+<td></td>
+<td>date</td>
+<td>real_estate</td>
+<td>YES</td>
+</tr>
+<tr><td>is_updated</td>
+<td></td>
+<td>int(11)</td>
+<td>real_estate</td>
+<td>YES</td>
+</tr>
+<tr class="bj"><td>update_time</td>
+<td></td>
+<td>timestamp</td>
+<td>real_estate</td>
+<td>NO</td>
+</tr>
+</table>
+</body>
+</html>

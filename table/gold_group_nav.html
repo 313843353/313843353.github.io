@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><title>gold_group_nav</title>
+<link rel="stylesheet" type="text/css" href="table.css" />
+</head>
+<body><h4>gold_group_nav       组合净值表</h4>
+<table><tr bgcolor="lightgrey"><th>字段名</th>
+<th>注释</th>
+<th>类型</th>
+<th>SCHEMA</th>
+<th>IS_NULL</th>
+</tr>
+<tr><td>id</td>
+<td>标识符id</td>
+<td>int(11)</td>
+<td>cia</td>
+<td>NO</td>
+</tr>
+<tr class="bj"><td>group_id</td>
+<td>组合id</td>
+<td>int(11)</td>
+<td>cia</td>
+<td>YES</td>
+</tr>
+<tr><td>trade_dt</td>
+<td>交易日期</td>
+<td>varchar(8)</td>
+<td>cia</td>
+<td>YES</td>
+</tr>
+<tr class="bj"><td>group_nav</td>
+<td>净值</td>
+<td>decimal(20,4)</td>
+<td>cia</td>
+<td>NO</td>
+</tr>
+<tr><td>group_nav_rate</td>
+<td>收益率</td>
+<td>decimal(20,4)</td>
+<td>cia</td>
+<td>NO</td>
+</tr>
+<tr class="bj"><td>group_nav_total_rate</td>
+<td>累计收益率</td>
+<td>decimal(20,4)</td>
+<td>cia</td>
+<td>NO</td>
+</tr>
+</table>
+</body>
+</html>

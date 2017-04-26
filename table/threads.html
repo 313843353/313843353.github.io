@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><title>threads</title>
+</head>
+<body><h2 style="text-align: center; margin-top: 60px;">字段信息</h2>
+<table border="1" cellpadding="3" cellspacing="0" style="margin:auto;margin-top: 40px;"><tr bgcolor="lightgrey"><th>字段名</th>
+<th>注释</th>
+<th>类型</th>
+</tr>
+<tr><td>THREAD_ID</td>
+<td></td>
+<td>bigint(20) unsigned</td>
+</tr>
+<tr><td>NAME</td>
+<td></td>
+<td>varchar(128)</td>
+</tr>
+<tr><td>TYPE</td>
+<td></td>
+<td>varchar(10)</td>
+</tr>
+<tr><td>PROCESSLIST_ID</td>
+<td></td>
+<td>bigint(20) unsigned</td>
+</tr>
+<tr><td>PROCESSLIST_USER</td>
+<td></td>
+<td>varchar(16)</td>
+</tr>
+<tr><td>PROCESSLIST_HOST</td>
+<td></td>
+<td>varchar(60)</td>
+</tr>
+<tr><td>PROCESSLIST_DB</td>
+<td></td>
+<td>varchar(64)</td>
+</tr>
+<tr><td>PROCESSLIST_COMMAND</td>
+<td></td>
+<td>varchar(16)</td>
+</tr>
+<tr><td>PROCESSLIST_TIME</td>
+<td></td>
+<td>bigint(20)</td>
+</tr>
+<tr><td>PROCESSLIST_STATE</td>
+<td></td>
+<td>varchar(64)</td>
+</tr>
+<tr><td>PROCESSLIST_INFO</td>
+<td></td>
+<td>longtext</td>
+</tr>
+<tr><td>PARENT_THREAD_ID</td>
+<td></td>
+<td>bigint(20) unsigned</td>
+</tr>
+<tr><td>ROLE</td>
+<td></td>
+<td>varchar(64)</td>
+</tr>
+<tr><td>INSTRUMENTED</td>
+<td></td>
+<td>enum('YES','NO')</td>
+</tr>
+</table>
+</body>
+</html>
